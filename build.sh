@@ -11,7 +11,7 @@ CLANG_DIR="$TC_DIR/prelude-clang"
 GCC_64_DIR="$TC_DIR/aarch64-linux-android-4.9"
 GCC_32_DIR="$TC_DIR/arm-linux-androideabi-4.9"
 
-DEFCONFIG="merlin_defconfig" # w/o: "merlin_defconfig"; w: nethunter_defconfig
+DEFCONFIG="nethunter_defconfig" # w/o: "merlin_defconfig"; w: nethunter_defconfig
 export PATH="$CLANG_DIR/bin:$PATH"
 
 if [[ $1 = "-r" || $1 = "--regen" ]]; then
